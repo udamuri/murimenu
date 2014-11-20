@@ -20,26 +20,26 @@
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/plugins/sunflower.min.js"></script>
-	 <link href="js/plugins/sunflower.min.css" rel="stylesheet">
+    <script src="js/plugins/circle.min.js"></script>
+	<link href="js/plugins/circle.min.css" rel="stylesheet">
+  </head>
+  <body>
 	<script>
 		$(document).ready(function($){
-			$('#menu').sunflower({
-				color: "orange",
+			$('#menu').murimenu({
 				position:'left-bottom',
-				backgroundColor : 'red',
 				button:[
 						['facebook','https://www.facebook.com/muribudiman'],
 						['twitter','https://twitter.com/Muribudiman'],
 						['googleplus','https://plus.google.com/u/0/+muribudimanmuribudiman/about'],
-						['youtube','https://www.youtube.com/']
+						['youtube','https://www.youtube.com/'],
+						['youtube','https://www.youtube.com/'],
+						['googleplus','https://plus.google.com/u/0/+muribudimanmuribudiman/about'],
 					],
 			});
 		});
 	</script>
-  </head>
-  <body>
-	<h1>Hello World</h1>
-    <div id="menu"></div>
+	
+	<div id="menu"></div>
   </body>
 </html>
