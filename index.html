@@ -7,12 +7,16 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+	<script src="js/jquery.min.js"></script>
     <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+	<script src="js/plugins/circle.min.js"></script>
+	<link href="js/plugins/circle.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+	
+	
   </head>
   <body>
     <div class="wrapper">
@@ -66,5 +70,24 @@ $ git checkout gh-pages
     </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
+	
+	<script>
+		$(document).ready(function($){
+			$('#menu').murimenu({
+				position:'left-bottom',
+				button:[
+						['facebook','https://www.facebook.com/muribudiman'], //facebook class 
+						['twitter','https://twitter.com/Muribudiman'],
+						['googleplus','https://plus.google.com/u/0/+muribudimanmuribudiman/about'],
+						['youtube','https://www.youtube.com/'],
+						['youtube','https://www.youtube.com/'],
+						['googleplus','https://plus.google.com/u/0/+muribudimanmuribudiman/about'],
+					],
+			});
+		});
+	</script>
+	
+	<div id="menu"></div>
+	
   </body>
 </html>
